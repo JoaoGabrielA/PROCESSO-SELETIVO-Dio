@@ -26,12 +26,6 @@ class ProcessoSeletivo {
         }
 
     }
-
-    private static double valorPretendido() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'valorPretendido'");
-    }
-
     static void analisarCandidato(double salarioPretendido) {
         double salarioBase = 2000.0;
         if (salarioBase > salarioPretendido){
